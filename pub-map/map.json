@@ -89,6 +89,11 @@
          "opacity":1,
          "properties":[
                 {
+                 "name":"audioLoop",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
                  "name":"playAudio",
                  "type":"string",
                  "value":"https:\/\/www.free-stock-music.com\/music\/alexander-nakarada-tavern-loop-one.mp3"
@@ -106,6 +111,16 @@
          "name":"music entry",
          "opacity":1,
          "properties":[
+                {
+                 "name":"audioLoop",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
+                 "name":"audioVolume",
+                 "type":"int",
+                 "value":50
+                }, 
                 {
                  "name":"playAudio",
                  "type":"string",
